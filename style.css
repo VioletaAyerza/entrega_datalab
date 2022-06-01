@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Source+Serif+4:wght@800&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+    
+    /*el valor por defecto es de 16px
+    90% de 16px*/
+    color: black;
+}
+
+.about {
+    margin-top: auto;
+    margin-left: 200;
+    margin-right: 100;
+    font-family: 'futura', serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: right;
+    -webkit-text-fill-color: red;
+}
+.works{
+    margin-top: auto;
+    margin-left: 500;
+    margin-right: auto;
+    font-family: 'futura', serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: right;
+    -webkit-text-fill-color: red;
+}
+.contact{
+    margin-top: auto;
+    margin-left: 500;
+    margin-right: auto;
+    font-family: 'futura', serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: right;
+    -webkit-text-fill-color: red;
+}
+.design { 
+
+    margin-top: auto;
+    margin-left: 200;
+    margin-right: auto;
+    font-family: 'futura', serif;
+    font-weight: 600;
+    font-size: 70px;
+    text-align: left;
+    -webkit-text-fill-color: red;
+}
+
+h1 {
+    margin: 20 auto;
+    margin-top:700;
+    margin-bottom: 500;
+    margin-left: 20;
+    margin-right: auto;
+    font-family: 'futura', serif;
+    font-weight: 800;
+    font-size: 200px;
+    text-align: center;
+    -webkit-text-stroke: 2px red;
+    -webkit-text-fill-color: white;
+}
+
+/*
+h1:hover {background-color:red;} */
+
+
+p{
+    font-family: 'futura', serif;
+    text-align: center;
+    font-size: 100%;
+    -webkit-text-fill-color: red;
+
+}
+
+a {
+
+font-size:2.03em;
+color: black;
+font-weight: 400;
+text-decoration:none;
+
+/*el valor none, quita la decoración de texto, por ejemplo el subrayado*/
+
+}
+
+/*pseudoclase hace referencia a un elemento
+cuando le paso el mouse por arriba*/
+
+a:hover {
+
+background-color:black;
+color:white;
+
+}
+
+#vinculo {
+color:white;
+background-color:black;
+}
+
+
+#vinculo:hover {
+
+color:black;
+background-color:white;
+
+}
+
+
+
+
+
+p {
+    font-weight: 300;
+    font-size: 2em;
+}
+
+#parrafo {
+    font-weight: 400;
+    text-transform: uppercase;
+    /*transforma el texto en mayúscula*/
+    font-size: 1em;
+  
+}
+
+/* se puede utilizar una sóla vez por html*/
+
+@media (max-width: 768px) {
+    body { font-size: 50%;}
+}
